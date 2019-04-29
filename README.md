@@ -508,6 +508,17 @@ there are two way of cluster. automaic & manual.
 4 major type of cluster - High Availibility (active-passive) , load balancing(active-active) , high performance, storage cluster.
 
 
+in k8s  every think is object like deployment , service , pod etc  
+
+k8s service and deployment
+--------------------------------------
+how to deploy application inside these pods. any deployment running inside k8s is call workload. workload are running pod inside k8s.
+service or deployment which is deployed in k8s - workload. 
+
+label selector -- 
+replicaset -- 
+
+references:::::::::::::::
 
 
 references:::::::::::::::
@@ -523,6 +534,6 @@ https://www.learnitguide.net/2018/08/what-is-kubernetes-learn-kubernetes.html
 
 https://www.youtube.com/watch?v=jgmdY73RF6w&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ
 
-
+https://www.youtube.com/watch?v=DsHcfoRyDsM&list=PLTyWtrsGknYdHLSdZz9fW0cMnpZny3UPL
 
 
