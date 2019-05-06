@@ -540,4 +540,4 @@ https://www.youtube.com/watch?v=SF7m08pgQJg&list=PLqnWYrfCqvm76wCt6E0JnCIP1fVgMl
 
 Kubernetes YML Generator with Usage for Deployment and Service:
 https://github.com/TechPrimers/k8s-spring-boot-example
-
+https://static.brandonpotter.com/kubernetes/DeploymentBuilder.html
