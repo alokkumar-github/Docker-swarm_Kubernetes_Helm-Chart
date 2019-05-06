@@ -538,3 +538,6 @@ https://www.youtube.com/watch?v=DsHcfoRyDsM&list=PLTyWtrsGknYdHLSdZz9fW0cMnpZny3
 
 https://www.youtube.com/watch?v=SF7m08pgQJg&list=PLqnWYrfCqvm76wCt6E0JnCIP1fVgMlnC-&index=1
 
+Kubernetes YML Generator with Usage for Deployment and Service:
+https://github.com/TechPrimers/k8s-spring-boot-example
+
