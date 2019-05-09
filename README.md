@@ -542,3 +542,6 @@ Kubernetes YML Generator with Usage for Deployment and Service:
 https://github.com/TechPrimers/k8s-spring-boot-example
 https://static.brandonpotter.com/kubernetes/DeploymentBuilder.html
 https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/
+
+https://github.com/matthewpalmer/awesome-kubernetes
+
