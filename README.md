@@ -541,7 +541,11 @@ https://www.youtube.com/watch?v=SF7m08pgQJg&list=PLqnWYrfCqvm76wCt6E0JnCIP1fVgMl
 Kubernetes YML Generator with Usage for Deployment and Service:
 https://github.com/TechPrimers/k8s-spring-boot-example
 https://static.brandonpotter.com/kubernetes/DeploymentBuilder.html
-https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/
+
 
 https://github.com/matthewpalmer/awesome-kubernetes
+
+kubernetes Doc: 
+https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
+https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/
 
