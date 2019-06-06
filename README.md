@@ -546,15 +546,17 @@ https://static.brandonpotter.com/kubernetes/DeploymentBuilder.html
 https://github.com/matthewpalmer/awesome-kubernetes
 
 kubernetes Doc: 
-https://www.quora.com/What-is-minikube-kubectl-and-kubelet
 https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
 https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/
+https://medium.com/tag/kubernetes/archive
+https://www.quora.com/What-is-minikube-kubectl-and-kubelet
+https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
 
 Docker Doc:
 https://medium.com/swlh/deploying-spring-boot-applications-15e14db25ff0
 https://medium.com/@alokpabalkar/docker-simplified-3212a18cc823
 
-practice k8s,docker doc:
+Practice k8s,docker doc:
 https://medium.com/free-code-camp/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882
 
 
