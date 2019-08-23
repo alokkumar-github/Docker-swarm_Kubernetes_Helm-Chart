@@ -37,5 +37,14 @@ minikube addons enable metrics-server
 kubrctl top pod
 kubrctl top node
 
+minikube dashboard
+
+while true; crul minkibeip:port/api; echo; done
+
+
+
+
+
+
 
 
