@@ -41,6 +41,10 @@ minikube dashboard
 
 while true; crul minkibeip:port/api; echo; done
 
+kubectl get po --watch
+kubectl get rolebinding
+kubectl describe rolebinding <rolebinding-name>
+
 
 
 
