@@ -31,6 +31,7 @@ docker-compose down
 docker-compose logs
 ```
 other command are:
+```
 docker stack ls              # List all running applications on this Docker host
 docker stack deploy -c <composefile> <appname>  # Run the specified Compose file
 docker stack services <appname>       # List the services associated with an app
