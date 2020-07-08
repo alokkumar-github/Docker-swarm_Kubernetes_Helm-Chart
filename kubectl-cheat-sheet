@@ -2,6 +2,14 @@ An assortment of compact kubectl examples, obtained from: [http://kubernetes.io/
 
 See also: Kubectl overview and JsonPath guide.
 
+# debugging technique
+```
+$ kubectl describe <k8s-resources>
+$ kubectl logs <k8s-resources>
+$ kubectl exec <pod-name> -- ls /  
+```
+
+
 # Creating Objects
 ```
 $ kubectl create -f ./file.yml                   # create resource(s) in a json or yaml file
@@ -83,6 +91,7 @@ $ kubectl get pods --sort-by=.status.containerStatuses[0].restartCount
 
 # Get the version label of all pods with label app=cassandra
 $ kubectl get pods --selector=app=cassandra rc -o 'jsonpath={.items[*].metadata.labels.version}'
+$ kubetl get pods --selector env=dev
 
 # Get ExternalIPs of all nodes
 $ kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="ExternalIP")].address}'
@@ -100,7 +109,9 @@ $ kubectl get nodes -o jsonpath='{range .items[*]}{@.metadata.name}:{range @.sta
 # Modifying and Deleting Resources
 
 ```
+$ kubectl get pods --show-labels
 $ kubectl label pods <pod-name> new-label=awesome                  # Add a Label
+$ kubectl label pods <podname> <newlabelname>=<value> --override
 $ kubectl annotate pods <pod-name> icon-url=http://goo.gl/XXBTWq   # Add an annotation
 
 # TODO: examples of kubectl edit, patch, delete, replace, scale, and rolling-update commands.
