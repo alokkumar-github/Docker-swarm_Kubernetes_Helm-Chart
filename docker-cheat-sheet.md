@@ -1,3 +1,7 @@
+# Docker-cheat-sheet
+
+docker command are:
+```
 docker build -t friendlyname .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyname  # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname         # Same thing, but in detached mode
@@ -16,11 +20,17 @@ docker tag <image> username/repository:tag  # Tag <image> for upload to registry
 docker push username/repository:tag            # Upload tagged image to registry
 docker run username/repository:tag                   # Run image from a registry
 
+```
+
+docker-compose command are:
+
+```
 docker-compose up
 docker-compose up -d
 docker-compose down
 docker-compose logs
-
+```
+other command are:
 docker stack ls              # List all running applications on this Docker host
 docker stack deploy -c <composefile> <appname>  # Run the specified Compose file
 docker stack services <appname>       # List the services associated with an app
@@ -41,3 +51,4 @@ docker-machine stop $(docker-machine ls -q)               # Stop all running VMs
 docker-machine rm $(docker-machine ls -q) # Delete all VMs and their disk images
 docker-machine scp docker-compose.yml myvm1:~     # Copy file to node's home dir
 docker-machine ssh myvm1 "docker stack deploy -c <file> <app>"   # Deploy an app
+ ```
