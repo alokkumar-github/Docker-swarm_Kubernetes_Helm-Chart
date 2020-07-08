@@ -56,9 +56,8 @@ data:
   password: $(echo "s33msi4" | base64)
   username: $(echo "jane" | base64)
 EOF
-
-# TODO: kubectl-explain example
 ```
+
 
 # Viewing, Finding Resources
 
