@@ -5,7 +5,7 @@ See also: Kubectl overview and JsonPath guide.
 # debugging technique
 ```
 $ kubectl describe <k8s-resources>
-$ kubectl logs <k8s-resources>
+$ kubectl logs <podname>
 $ kubectl exec <pod-name> -- ls /  
 ```
 
