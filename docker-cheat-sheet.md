@@ -2,6 +2,14 @@
 
 docker command are:
 ```
+docker run vs docker exec
+Simply speaking “docker run” has its target as docker images and “docker exec” is targeting pre-existing docker containers. ... When using “docker run” a temporary docker container is created and stopped(not terminated) after the command has finished running
+
+copy From window to unix ->>
+pscp -r C:\Users\xyz\Documents\xyz abc@1.100.200.18:/home/abc
+From unix  to docker container ->>
+docker cp ~/xyz/. 0b7e5e34916a:/app/api
+
 docker build -t friendlyname .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyname  # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname         # Same thing, but in detached mode
