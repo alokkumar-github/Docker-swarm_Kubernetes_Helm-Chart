@@ -5,6 +5,8 @@ An assortment of compact kubectl examples, obtained from: [http://kubernetes.io/
 See also: Kubectl overview and JsonPath guide.
 https://github.com/dennyzhang/cheatsheet-kubernetes-A4
 
+ctrl+r  to recall the history - command typed
+
 Kubectl Alias
 Linux
 alias k=kubectl
