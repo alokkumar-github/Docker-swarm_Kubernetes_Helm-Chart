@@ -304,6 +304,9 @@ $ kubectl annotate pods <pod-name> icon-url=http://goo.gl/XXBTWq   # Add an anno
 # TODO: examples of kubectl edit, patch, delete, replace, scale, and rolling-update commands.
 ```
 
+# change from xxx to NodePort
+$ kubectl patch svc you-svc -p '{"spec": {"type": "NodePort"}}'
+
 # Interacting with running Pods
 
 ```
