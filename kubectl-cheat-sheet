@@ -3,6 +3,8 @@ microk8s ::::::   https://thenewstack.io/set-up-microk8s-to-run-an-edge-applicat
 Minikube as default is using 2048MB of memory and 2 CPUs. More details about this can be fund here In addition, 
 you can enforce Minikue to create more using command minikube start --cpus 4 --memory 8192
 
+to see service kubectl get svc and then minikube service <my-keycloak>
+
 use helm:
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo update
