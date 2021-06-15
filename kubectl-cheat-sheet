@@ -11,7 +11,7 @@ helm repo update
 helm install <release-name> bitnami/cassandra
 helm delete/remove <release-name>
 helm list
-Password : $(kubectl get secret --namespace default <secret-name> -o jsonpath="{.data.mariadb-root-password}" | base64 --decode)
+Password : $(kubectl get secret --namespace default <secret-oject-name> -o jsonpath="{.data.mariadb-root-password}" | base64 --decode)
 echo $Password
 
 An assortment of compact kubectl examples, obtained from: [http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/](http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/)
