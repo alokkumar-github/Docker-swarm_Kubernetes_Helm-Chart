@@ -1,4 +1,5 @@
 microk8s ::::::   https://thenewstack.io/set-up-microk8s-to-run-an-edge-application/
+microk8s ctr images ls  see for more https://microk8s.io/docs/registry-images 
 
 Minikube as default is using 2048MB of memory and 2 CPUs. More details about this can be fund here In addition, 
 you can enforce Minikue to create more using command minikube start --cpus 4 --memory 8192
