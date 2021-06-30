@@ -16,6 +16,7 @@ export
 
 Password=$(kubectl get secret --namespace default <secret-oject-name> -o jsonpath="{.data.mariadb-root-password}" | base64 --decode)
 echo $Password
+kubectl get secrets/<secret-oject-name>  -o json
 
 An assortment of compact kubectl examples, obtained from: [http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/](http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/)
 
