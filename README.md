@@ -1,3 +1,4 @@
+https://www.containiq.com/post/popular-kubernetes-distributions
 # Docker-swarm-AND-Kubernetes
 Shortcut keys to this is ALT+SHIFT+N -> select JUnit Test Case (or hit J 3 times) 
 Basic
